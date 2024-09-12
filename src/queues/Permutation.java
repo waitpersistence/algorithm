@@ -19,7 +19,8 @@ public class Permutation {
                 queue.enqueue(s);
             }
             }
-        }
+        }//随机数
+        //水塘抽样算法
         while (k-- > 0) StdOut.println(queue.dequeue());
 
     }
